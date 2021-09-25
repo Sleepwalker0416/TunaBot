@@ -36,6 +36,7 @@ async def Tuna(ctx):
 
 #Moderation command
 @client.command()
+@commands.has_permissions(manage_messages=True)
 async def clear(ctx, amount: int):
     await ctx.channel.purge(limit=amount)
     await ctx.send(str(amount) + ' cleared messages')
