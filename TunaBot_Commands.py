@@ -46,4 +46,4 @@ async def clear_error(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
         await ctx.send('Invalid argument!')
 
-client.run('ODkxMTc4OTAyMzA5OTc4MTIz.YU6lBw.P_K-d_2fc_y0mjdRYMaE5-sUM_k')
+client.run('')
